@@ -11,7 +11,7 @@ public class TestCase2 {
 	@Test
 	public void testgithublogin()
 	{
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\training_b7c.06.13\\Desktop\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\Training_b7c.06.13\\Downloads\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		
 		driver.get("https://github.com/login");
